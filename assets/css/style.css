@@ -1,0 +1,99 @@
+:root{
+  --main-color : bisque;
+  --color-black: black;
+}
+
+*{
+  background-color:var(--main-color);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 30px;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading h1{
+  font-size: 35px;
+  background-color: var(--color-black);
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.heading a{
+  text-decoration: none;
+}
+
+
+/* section starts */
+section.section-one{
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.section-one .section-one-content{
+  padding: 100px;
+  text-align: center;
+}
+
+.section-one-content h1{
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.section-one-content .answer{
+  font-size: 32px;
+  border: 1px solid var(--color-black);
+  padding: 10px;
+  margin: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.section-one-content .answer:hover{
+  letter-spacing: 0.3rem;
+  background-color: var(--color-black);
+  color: var(--main-color);
+}
+
+.btn{
+  margin-top: 7rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 1.7rem;
+  color: black;
+  background: var(--main-color);
+  cursor: pointer;
+  text-align: center;
+  border-radius:100px;
+}
+
+.btn:hover{
+  letter-spacing: .2rem;
+  background-color: black;
+  color: var(--main-color);
+}
+
+
+
+/* //section two start */
+
+
+.section-two .section-two-content{
+  background-color: red;
+  height: 50vh;
+  position: absolute;
+  z-index: 10;
+  
+}
