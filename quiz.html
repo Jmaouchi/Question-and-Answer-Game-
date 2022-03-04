@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./assets/css/quiz.css"> 
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- header start -->
+  <header>
+
+    <div class="heading">
+      <h1 id="result">Score</h1>
+      <h2 id="countdown" style="background-color: black; color: white; padding:15px; border-radius: 100%; align-items: center;">start timer</h>
+    </div>
+
+  </header>
+  <!-- header ends -->
+
+  <section class="section-one">
+    <div class="section-one-content" id="section-one-content">
+      <h1 id="question"></h1>
+      <p id="answerOne" class="answer"></p>
+      <p id="answerTwo" class="answer"></p>
+      <p id="answerThree" class="answer"></p>
+      <p id="answerFour" class="answer"></p>
+      
+      <div class="span">
+          <span id="show-answer"></span>
+      </div>
+    </div>
+
+  </section>
+  <!-- section one ends -->
+
+  <!-- section two starts -->
+  <section class="section-two">
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h4>modal content</h4>
+        <div class="x-button">
+          <button class="close-btn btn" id="close-btn"><i class="fas fa-times"></i></button>
+        </div>  
+        <div class="modal-container-sub-content">
+          <div id="checkScore">
+            <h2 class="heading-two" id="your-score">Your score is:</h2>
+            <p></p>
+          </div>
+          <a href="index.html"><div id="play-again"></div></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section two ends-->
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
