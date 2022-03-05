@@ -19,7 +19,7 @@ A question Game Quiz will allow you answer questions that are realated to some c
 # Exmple
 
 ## Game started
-![](assets/images/start.png)
+![](assets/images/starts.png)
 
 ## when is wrong
 ![](assets/images/wrong.png)
