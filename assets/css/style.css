@@ -19,6 +19,7 @@
 }
 
 .main-section-content{
+  border-radius: 15px;
   padding: 120px;
   text-align: center;
   box-shadow: 5px 5px 30px rgb(0, 10, 10);
