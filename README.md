@@ -9,10 +9,26 @@ A question Game Quiz will allow you answer questions that are realated to some c
 
 4- will give you score whene you finish answering the questions 
 
+
 # Built With
 - HTML
 - CSS
 - Portfolio
+
+
+# Exmple
+
+## Game started
+![](assets/images/start.png)
+
+## when is wrong
+![](assets/images/wrong.png)
+
+## when is correct
+![](assets/images/correct.png)
+
+## modal displayed
+![](assets/images/modal.png)
 
 Contribution
 Made by [Jugurta Maouchi] 2022.
