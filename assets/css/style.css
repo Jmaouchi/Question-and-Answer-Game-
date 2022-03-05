@@ -1,0 +1,45 @@
+:root{
+  --main-color : bisque;
+  --color-black: black;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.main-section{
+  background:linear-gradient(bisque 50%, rgb(10, 10, 10) );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section-content{
+  border-radius: 15px;
+  padding: 120px;
+  text-align: center;
+  box-shadow: 5px 5px 30px rgb(0, 10, 10);
+}
+
+.main-section-content h1{
+  font-size: 48px;  
+  margin-bottom:25px;
+}
+
+.main-section-content a button{
+  padding: 15px 55px 15px 55px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.main-section-content a button:hover{
+  background-color: var(--main-color);
+  color: black;
+  box-shadow: 5px 5px 30px rgb(0, 10, 10);
+}
