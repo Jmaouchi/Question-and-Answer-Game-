@@ -30,7 +30,13 @@ A question Game Quiz will allow you answer questions that are realated to some c
 ## modal displayed
 ![](assets/images/modal.png)
 
-Contribution
-Made by [Jugurta Maouchi] 2022.
+
+# live link 
+
+https://jmaouchi.github.io/Question-and-Answer-Game-/
+
+
+# Contribution
+## Made by [Jugurta Maouchi] 2022.
 
 ©️2022 Quiz, Inc
