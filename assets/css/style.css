@@ -36,10 +36,29 @@
   color: white;
   font-size: 25px;
   cursor: pointer;
+  margin-top: 25px;
+  border-radius: 15px;
 }
 
 .main-section-content a button:hover{
   background-color: var(--main-color);
   color: black;
   box-shadow: 5px 5px 30px rgb(0, 10, 10);
+}
+
+.game-policy{
+  text-align: start;
+}
+
+.game-policy p{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.game-policy :nth-child(1){
+  font-size: 25px;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(151, 170, 187);
 }
