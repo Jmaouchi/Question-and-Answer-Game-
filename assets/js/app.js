@@ -8,7 +8,7 @@ var closeBtn = document.getElementById('close-btn');
 var checkScore = document.getElementById('checkScore');
 var playAgain = document.getElementById('play-again');
 var score = 0;
-var timer = 75;
+var timer = 35;
 var objectId = 0;
 var scoreArray = [];
 
@@ -148,6 +148,7 @@ function updateCountDown(){
       //set inital to local storage
       scoreArray.push(score);
       localStorage.setItem('score', JSON.stringify (scoreArray));
+      scoreArray = [];
 
       } else {
       currentItem++;
@@ -159,6 +160,8 @@ function updateCountDown(){
 // get score result and this whenenver you click the score heading to check your score 
   var getScoreResult = function(){
     modalOverlay.style.visibility = 'visible';
+    var scoreLs = getScoreFromLs();
+    yourScore.textContent = `your score ${scoreLs}`
   }
 
 // close the score section whenever you click the red button
@@ -174,8 +177,8 @@ function updateCountDown(){
 // get score form LS whenever you reload the page 
 var getScoreFromLs = function(){
   var scoreArrayFromLs = localStorage.getItem('score');
-  console.log(`checking score array from ls: ${scoreArray}`);
-  console.log(`checking last index on the scoreArray from ls: ${scoreArrayFromLs}`);
+  var scoreArrayLs = JSON.parse(scoreArrayFromLs)
+  return scoreArrayLs[0];
 }
 
 
